@@ -4,3 +4,12 @@ p{
 	text-align:justify;
 	text-size:12pt;
 }
+
+
+
+div#conteiner{
+	width:1028px;
+	background-color: rgba(0,0,0,.2);
+	margin:auto;
+	
+}
