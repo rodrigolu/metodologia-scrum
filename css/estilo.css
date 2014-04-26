@@ -34,8 +34,8 @@ div#interface{
 /* menu do site */
 header#cabecalho{
 	height:150px;
-	background-color:#138563;
 	margin-top: -10px;
+	background: url("../Scrum.png") no-repeat 0px 0px;
 }
 
 nav#menu{
