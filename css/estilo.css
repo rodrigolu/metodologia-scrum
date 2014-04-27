@@ -2,15 +2,83 @@
 
 p{
 	text-align:justify;
-	text-size:12pt;
+	text-indent:50px;
+	
+}
+
+body{
+	background-color: rgba(0,0,0,.1);
+
+}
+
+h1{
+	background-color:#738781;
+	padding:10px;
+	color:#fff;
+	text-shadow: 1px 1px 5px rgba(0,0,0,.6);
+
 }
 
 
-
-div#conteiner{
+/* conteudo do corpo */
+div#interface{
 	width:1028px;
 	background-color: rgba(0,0,0,.2);
 	margin:auto;
 	padding:10px;
+	box-shadow: 0px 0px 8px rgba(0,0,0,.5)
 	
+}
+
+
+/* menu do site */
+div#teste{
+	height:200px;
+	background-color:#6b7270;
+
+}
+header#cabecalho{
+	height:150px;
+	margin-top: -10px;
+	background: url("../teste.png") no-repeat 0px 0px;
+}
+
+nav#menu{
+	display:block;
+
+}
+
+nav#menu ul{
+	position: absolute;
+	left:270px;
+	list-style: none;
+	text-transform: uppercase;
+	top: 148px;
+
+}
+
+nav#menu li{
+	padding: 10px;
+	background-color: #357b6a;
+	display: inline-block;
+	transition: background-color 1s;
+	-webkit-border-radius: 20px 6px 25px 6px;
+	width:100px;
+	text-align:center;
+
+}
+
+nav#menu li:hover{
+	background-color: #738781;
+	
+}
+
+nav#menu li a{
+	text-decoration: none;
+	color: #000;
+}
+
+nav#menu li a:hover{
+	color: #fff;
+	text-decoration: underline;
 }
