@@ -19,6 +19,15 @@ h1{
 
 }
 
+h2{
+	text-align:center;
+	background-color:#6C7854;
+	padding:10px;
+	color:#fff;
+	text-shadow: 1px 1px 5px rgba(0,0,0,.6);
+
+}
+
 
 /* conteudo do corpo */
 div#interface{
